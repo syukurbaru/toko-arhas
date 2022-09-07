@@ -3,7 +3,7 @@ import Homepage from "./pages/Homepage";
 
 function App() {
   return (
-    <div className="w-full bg-orange-300 py-5">
+    <div className="w-full py-5">
         <Navbar />
         <Homepage />
     </div>
