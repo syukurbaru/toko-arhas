@@ -1,16 +1,25 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 function Navbar() {
   return (
     <div className="container mx-auto flex justify-between items-center h-10 mb-5">
-      <div>
-        <img src="/icons/logo_coffe.svg" alt="" />
-      </div>
+      <Link to="/">
+        <div>
+          <img src="/icons/logo_coffe.svg" alt="" />
+        </div>
+      </Link>
       <div>
         <ul className="flex gap-5">
-          <li className="hover:text-orange-500"><a href="#about">About Us</a></li>
-          <li className="hover:text-orange-500"><a href="#product">Our Product</a></li>
-          <li className="hover:text-orange-500"><a href="#delivery">Delivery</a></li>
+          <li className="hover:text-orange-500">
+            <a href="#about">About Us</a>
+          </li>
+          <li className="hover:text-orange-500">
+            <a href="#product">Our Product</a>
+          </li>
+          <li className="hover:text-orange-500">
+            <a href="#delivery">Delivery</a>
+          </li>
         </ul>
       </div>
       <div className="flex items-center">
@@ -18,7 +27,7 @@ function Navbar() {
           <div className="mr-2">
             <img src="/icons/akar-icons_search.svg" alt="" />
           </div>
-          <input type="text" placeholder="Search..." className="outline-none"/>
+          <input type="text" placeholder="Search..." className="outline-none" />
         </div>
         <div>
           <img src="/icons/icons_cart.svg" alt="" />

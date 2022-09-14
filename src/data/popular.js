@@ -18,7 +18,7 @@ export const popular = [
   {
     title: "Espresso",
     rating: "4.8",
-    image: "/images/img_product.png",
+    image: "/images/espresso.png",
     amount: 12,
     variant: [
       {
@@ -34,7 +34,7 @@ export const popular = [
   {
     title: "Hazelnut Latte",
     rating: "4.8",
-    image: "/images/img_product.png",
+    image: "/images/hazelnut latte.png",
     amount: 23,
     variant: [
       {

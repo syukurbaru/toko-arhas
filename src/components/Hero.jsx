@@ -28,11 +28,13 @@ function Hero() {
           </div>
         </div>
         <div className="p-5 ">
+          <div className="animate-bounce">
           <img
             src="/images/img-hero.png"
             alt=""
             className="w-[35rem] h-[26rem] object-cover"
           />
+          </div>
         </div>
       </div>
     </div>

@@ -10,5 +10,8 @@
 
   --border-radius: 33px;
   --padding-button: 12px 32px;
+}
 
+html {
+  scroll-behavior: smooth;
 }
